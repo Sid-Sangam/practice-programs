@@ -47,15 +47,16 @@ Here's a quick taste of Sachin syntax:
 $ This is a comment
 {
   integer number;
-  boolean found = false;
+  boolean positive;
   
+  positive = false;
   read number;
-  write "You entered:", number;
-  
   if (number > 0)
   {
-    write "Positive number!";
+    positive = true;
   }
+
+  write positive;
 }
 ```
 
