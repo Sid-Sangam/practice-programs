@@ -40,3 +40,6 @@ Thumbs.db
 *.zip
 *.rar
 *.7z
+
+# build files
+*.sachin
