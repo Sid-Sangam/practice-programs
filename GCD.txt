@@ -1,0 +1,12 @@
+$ This is a program to find the GCD of 2 numbers.
+{
+    integer a, b, count;
+    read a, b;
+    while (b != 0)
+    {
+        count = b;
+        b = a % b;
+        a = count;
+    }
+    write count;
+}
